@@ -68,8 +68,13 @@ If you're running this through Chef, you can add it to your run list with:
 chef.add_recipe 'celery'
 ```
 
+For a full example on using this cookbook, take a look at the
+[RabbitMQ Cluster](https://github.com/turbine-web/rabbitmq-cluster), which has a Celery task example.
+
 Testing
 -------
+
+[![Build Status](https://travis-ci.org/turbine-web/celery-cookbook.png?branch=master)](https://travis-ci.org/turbine-web/celery-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
