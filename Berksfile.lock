@@ -1,0 +1,21 @@
+DEPENDENCIES
+  celery
+    path: .
+    metadata: true
+  python
+  supervisord
+
+GRAPH
+  build-essential (2.0.6)
+  celery (1.0.0)
+    python (>= 0.0.0)
+    supervisor (>= 0.0.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  supervisor (0.4.12)
+    python (>= 0.0.0)
+  supervisord (1.0.1)
+  yum (3.2.4)
+  yum-epel (0.4.0)
+    yum (~> 3.0)
